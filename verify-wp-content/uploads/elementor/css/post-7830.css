@@ -1,0 +1,195 @@
+.elementor-7830 .elementor-element.elementor-element-2351cea9>.elementor-container>.elementor-column>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-7830 .elementor-element.elementor-element-2351cea9>.elementor-container {
+    max-width: 1200px;
+    min-height: 400px;
+}
+
+.elementor-7830 .elementor-element.elementor-element-7cecc3d5>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    margin-bottom: 10px;
+}
+
+.elementor-widget-image .widget-image-caption {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight);
+}
+
+.elementor-7830 .elementor-element.elementor-element-4b5c91e9 img {
+    width: 43%;
+}
+
+.elementor-widget-text-editor {
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight);
+    color: var( --e-global-color-text);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: var( --e-global-color-primary);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
+    color: var( --e-global-color-primary);
+    border-color: var( --e-global-color-primary);
+}
+
+.elementor-7830 .elementor-element.elementor-element-6fd444ce>.elementor-widget-container {
+    padding: 0px 50px 0px 50px;
+}
+
+.elementor-7830 .elementor-element.elementor-element-6fd444ce {
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.elementor-7830 .elementor-element.elementor-element-df030b7>.elementor-widget-container {
+    padding: 0px 50px 0px 50px;
+}
+
+.elementor-7830 .elementor-element.elementor-element-df030b7 {
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1em;
+    color: #FFFFFF;
+}
+
+.elementor-widget-button .elementor-button {
+    background-color: var( --e-global-color-accent);
+    font-family: var( --e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-accent-font-weight);
+}
+
+.elementor-7830 .elementor-element.elementor-element-981f0f5 .elementor-button {
+    background-color: var( --e-global-color-a851418);
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: var( --e-global-color-a851418);
+    border-radius: 5px 10px 5px 10px;
+}
+
+.elementor-7830 .elementor-element.elementor-element-981f0f5 .elementor-button:hover,
+.elementor-7830 .elementor-element.elementor-element-981f0f5 .elementor-button:focus {
+    background-color: #CF8518;
+    border-color: var( --e-global-color-a851418);
+}
+
+.elementor-7830 .elementor-element.elementor-element-981f0f5>.elementor-widget-container {
+    margin: 20px 0px 0px 0px;
+}
+
+.elementor-7830 .elementor-element.elementor-element-1338d0a0:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-7830 .elementor-element.elementor-element-1338d0a0>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://cryptoconsortium.org/wp-content/uploads/2019/07/main-hero-background-scaled.jpg");
+    background-position: center left;
+    background-size: cover;
+}
+
+.elementor-7830 .elementor-element.elementor-element-1338d0a0>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    margin-bottom: 10px;
+}
+
+.elementor-7830 .elementor-element.elementor-element-1338d0a0>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-7830 .elementor-element.elementor-element-1338d0a0>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-7830 .elementor-element.elementor-element-45541a45 {
+    --spacer-size: 50px;
+}
+
+#elementor-popup-modal-7830 .dialog-widget-content {
+    animation-duration: 1.2s;
+    background-color: var( --e-global-color-f752729);
+    box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
+}
+
+#elementor-popup-modal-7830 {
+    background-color: #0000007A;
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+}
+
+#elementor-popup-modal-7830 .dialog-message {
+    width: 50vw;
+    height: auto;
+}
+
+#elementor-popup-modal-7830 .dialog-close-button {
+    display: flex;
+}
+
+#elementor-popup-modal-7830 .dialog-close-button i {
+    color: #FFFFFF;
+}
+
+#elementor-popup-modal-7830 .dialog-close-button svg {
+    fill: #FFFFFF;
+}
+
+@media(max-width:1024px) {
+    #elementor-popup-modal-7830 .dialog-message {
+        width: 80vw;
+    }
+}
+
+@media(min-width:768px) {
+    .elementor-7830 .elementor-element.elementor-element-7cecc3d5 {
+        width: 64.129%;
+    }
+    .elementor-7830 .elementor-element.elementor-element-1338d0a0 {
+        width: 35.69%;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-7830 .elementor-element.elementor-element-4b5c91e9 img {
+        width: 54%;
+    }
+    .elementor-7830 .elementor-element.elementor-element-6fd444ce>.elementor-widget-container {
+        padding: 15px 15px 15px 15px;
+    }
+    .elementor-7830 .elementor-element.elementor-element-df030b7>.elementor-widget-container {
+        padding: 15px 15px 15px 15px;
+    }
+    .elementor-7830 .elementor-element.elementor-element-981f0f5>.elementor-widget-container {
+        margin: 20px 0px 0px 0px;
+    }
+    .elementor-7830 .elementor-element.elementor-element-45541a45 {
+        --spacer-size: 150px;
+    }
+    #elementor-popup-modal-7830 .dialog-message {
+        width: 80vw;
+    }
+}
+
+/* Start custom CSS for text-editor, class: .elementor-element-6fd444ce */
+
+.elementor-7830 .elementor-element.elementor-element-6fd444ce {
+    font-family: 'frank-new' !important;
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for text-editor, class: .elementor-element-df030b7 */
+
+.elementor-7830 .elementor-element.elementor-element-df030b7 {
+    font-family: 'frank-new' !important;
+}
+
+/* End custom CSS */

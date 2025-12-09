@@ -1,0 +1,57 @@
+const certificates = [
+  {
+    name: "Dennis Lee Gullett",
+    certification: "CBP",
+    id: "76152e",
+    date: "2025-02-10",
+    expiration: "2028-12-31",
+  },
+  {
+    name: "John Doe",
+    certification: "CFA",
+    id: "a1b2c3",
+    date: "2023-01-15",
+    expiration: "2025-01-15",
+  },
+];
+
+// Grab the form by ID
+const form = document.getElementById("customer_id");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault(); // prevent page reload
+
+  const inputId = form.customer_attempt_id.value.trim(); // get input value
+  const cert = certificates.find((c) => c.id === inputId);
+
+  // Check if results div exists, otherwise create it
+  let resultDiv = document.getElementById("verification_result");
+  if (!resultDiv) {
+    resultDiv = document.createElement("div");
+    resultDiv.id = "verification_result";
+    form.parentNode.appendChild(resultDiv);
+  }
+
+  // Display results
+  if (cert) {
+    const isExpired = new Date(cert.expiration) < new Date();
+    resultDiv.innerHTML = `
+            <p style="color:green; font-weight:bold;">Professional Found</p>
+            <p>Name: ${cert.name}</p>
+            <p>Certification Passed: ${cert.certification}</p>
+            <p>Certification ID: ${cert.id}</p>
+            <p>Date: ${cert.date}</p>
+            <p>Expiration Date: ${cert.expiration}</p>
+            ${
+              isExpired
+                ? '<p style="font-weight:bold;">This Certificate Has Expired</p>'
+                : ""
+            }
+        `;
+  } else {
+    resultDiv.innerHTML = `
+            <p style="color:red; font-weight:bold;">No Professional Found</p>
+            <p>Please search another Certification ID</p>
+        `;
+  }
+});

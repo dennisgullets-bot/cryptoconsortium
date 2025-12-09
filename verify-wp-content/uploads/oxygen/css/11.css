@@ -1,0 +1,11 @@
+#primaryHeader>.ct-section-inner-wrap {
+    padding-top: 10em;
+    padding-bottom: 5em
+}
+
+#primaryHeader {
+    background-image: url(https://cryptoconsortium.org/wp-content/uploads/2019/07/subpage-bg.jpg);
+    background-size: cover;
+    background-color: #020c1e;
+    background-position: center center
+}
