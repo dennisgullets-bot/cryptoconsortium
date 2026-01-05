@@ -7,11 +7,11 @@ const certificates = [
     expiration: "2028-12-31",
   },
   {
-    name: "John Doe",
-    certification: "CFA",
+    name: "David T. kapetanovich",
+    certification: "CBP",
     id: "a1b2c3",
-    date: "2023-01-15",
-    expiration: "2025-01-15",
+    date: "2026-01-03",
+    expiration: "2029-01-03",
   },
 ];
 
